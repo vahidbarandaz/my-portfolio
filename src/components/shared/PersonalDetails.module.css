@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    color: #52796f;
+    font-size: 16px;
+}
+
+.desc {
+    text-align: justify;
+}
+
+.fav {
+    color: #e63946;
+    font-weight: 500;
+}
+
+.open {
+    align-self: flex-start;
+    font-weight: 500;
+    color: black;
+}
+
+.link {
+    color: black;
+    font-weight: 500;
+}
+
+@media (max-width: 550px) {
+    .container {
+        width: 90%;
+    }
+}
